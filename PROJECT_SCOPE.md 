@@ -1,0 +1,67 @@
+# 📌 Project Scope – SmartSplit
+
+## 🧠 Project Overview
+
+**SmartSplit** is a full-stack expense-sharing and budgeting web application. It helps users split bills with friends or groups, track shared expenses, upload receipts, and get AI-powered suggestions to better manage their budget. Built with React, NestJS, PostgreSQL, Docker, and AWS.
+
+---
+
+## 🎯 Project Goals
+
+- Learn and demonstrate real-world experience with:
+  - Node.js (NestJS)
+  - React with TypeScript
+  - PostgreSQL with Prisma ORM
+  - Docker for containerization
+  - AWS for database and file storage
+- Build a clean, well-structured project to showcase on GitHub 
+- Apply best practices in backend API design, frontend development, and DevOps
+
+---
+
+## ✨ Core Features
+
+### ✅ Authentication
+- User registration and login with JWT
+- Password hashing and secure token storage
+
+### ✅ Expense Sharing
+- Create and join expense groups (e.g., "Trip to Melbourne")
+- Add and split expenses with group members
+- Automatically calculate balances (who owes whom)
+
+### ✅ Dashboard
+- View personal and group balances
+- Visual summaries of spending
+- Charts for spending categories (e.g., rent, food, travel)
+
+### ✅ File Upload (AWS S3)
+- Upload receipts or expense proofs
+- Securely store files in AWS S3 bucket
+
+### ✅ AI Suggestions (Optional Bonus)
+- Use OpenAI or AWS Bedrock to analyze expense history
+- Provide smart tips: e.g., "You spent 40% more than last month on food"
+
+---
+
+## 🧪 Technical Goals
+
+- Master modular architecture with NestJS
+- Write clean, typed backend code using TypeScript
+- Implement Docker + Docker Compose for dev and deployment
+- Integrate AWS services: RDS (PostgreSQL), S3
+- Use GitHub Actions for CI/CD pipeline (optional)
+
+---
+
+## 🔜 Stretch Goals
+
+- Real-time updates with WebSocket (for group chats or live expense updates)
+- Multi-currency support with automatic exchange rates
+- Admin dashboard to manage groups and users
+
+---
+
+## 📁 Folder Structure
+
